@@ -28,6 +28,12 @@
   .login__illustration img:last-of-type {
     top: 30vw;
   }
+  .signup__illustration img:first-of-type {
+    top: 20vw;
+  }
+  .signup__illustration img:last-of-type {
+    top: 30vw;
+  }
 }
 
 /* 670 */
@@ -52,14 +58,27 @@
   .login__illustration {
     display: none;
   }
+  .signup__illustration {
+    display: none;
+  }
 
   .sign-in {
+    margin: 2vw auto 0 auto;
+    width: 80%;
+  }
+  .signup-form {
     margin: 2vw auto 0 auto;
     width: 80%;
   }
 
   .form__sign-in--input {
     width: 100%;
+  }
+  .form__signup--input {
+    width: 100%;
+  }
+  .form__signup--input-small {
+    width: 39vw;
   }
 
   .btn-purple {
@@ -92,7 +111,12 @@
   .sign-in {
     width: 90%;
   }
-
+  .signup-form {
+    width: 90%;
+  }
+  .form__signup--input-small {
+    width: 44vw;
+  }
   .header-home {
     padding: 0 2rem;
   }

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="signup.css" />
+  <link rel="stylesheet" href="../../assets/base.css" />
+  <link rel="stylesheet" href="/media-queries.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="signup">
+      <header class="signup-header">
+        <div class="signup-header__links">
+          <p class="signup-header__text">Slready a Member?</p>
+          <button class="btn__header">Sign In</button>
+        </div>
+      </header>
+
+      <div class="signup__illustration">
+        <img src="/assets/img/bg-pink2.png" alt="" />
+        <img src="/assets/img/ladies.png" alt="" />
+      </div>
+      <div class="signup-form">
+        <h1 class="signup__title">Signup</h1>
+        <p class="signup__subtitle">
+          Welcome to the 9to5Chick community. A vibrant community of career
+          women.
+        </p>
+        <br />
+        <br />
+        <form action="POST" class="form__signup">
+          <div class="form-group__outer">
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input class="form__signup--input-small" type="text" required />
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input
+                class="form__signup--input-small"
+                type="password"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input class="form__signup--input" type="text" required />
+          </div>
+
+          <div class="form-group__outer">
+            <div class="form-group">
+              <label for="Phone">Email</label>
+              <input class="form__signup--input-small" type="email" required />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                class="form__signup--input-small"
+                type="password"
+                required
+              />
+            </div>
+          </div>
+          <a href="/" class="forgot-password">Forgot Password</a>
+
+          <button class="btn btn-purple">Sign in</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
