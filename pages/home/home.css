@@ -149,6 +149,7 @@ section {
 
 .plan__info {
   padding: 1rem 2rem 2rem 4rem;
+  width: inherit;
 }
 
 .plan__info--list {
@@ -169,4 +170,9 @@ section {
   background-size: contain;
   background-image: url(/assets/svg/check.svg);
   left: -2rem;
+}
+
+.plan__button.btn-purple {
+  width: calc(100% + 2rem);
+  margin-left: -2rem;
 }
