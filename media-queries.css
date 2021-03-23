@@ -6,7 +6,6 @@
 @media only screen and (max-width: 37.5em) {
 }
 
-/* 768px */
 @media only screen and (max-width: 48em) {
 }
 
@@ -31,6 +30,24 @@
   }
 }
 
+/* 670 */
+@media only screen and (max-width: 41.875em) {
+  .plans__group {
+    width: 100%;
+    flex-direction: column;
+    padding: unset;
+    margin-top: 4rem;
+  }
+
+  .plan__long {
+    width: 100%;
+  }
+  .plan__long:first-child {
+    margin-bottom: 3rem;
+  }
+}
+/* 768px */
+
 @media only screen and (max-width: 48em) {
   .login__illustration {
     display: none;
@@ -48,10 +65,63 @@
   .btn-purple {
     width: 100%;
   }
+
+  /* Home page */
+
+  .hero__content {
+    width: 50%;
+  }
+  .hero__title {
+    font-size: 3rem;
+    line-height: 110%;
+  }
+  .hero__content > .btn-purple {
+    width: initial;
+  }
+
+  .features__grid {
+    grid-template-columns: 40vw 40vw;
+  }
+
+  .plans__long {
+    width: fit-content;
+  }
 }
 
 @media only screen and (max-width: 30em) {
   .sign-in {
     width: 90%;
+  }
+
+  .header-home {
+    padding: 0 2rem;
+  }
+  /* Home page */
+
+  .hero__content {
+    width: 70%;
+    left: 2rem;
+  }
+  .hero__title {
+    font-size: 3rem;
+    line-height: 110%;
+  }
+  .hero__sub {
+    padding: unset;
+  }
+  .section__app-features {
+    padding: 8vw 2rem;
+  }
+  .features__grid {
+    grid-template-columns: 80vw;
+  }
+
+  .feature__img {
+    width: 34vw;
+    height: 34vw;
+  }
+
+  .plan__long {
+    width: 100%;
   }
 }
