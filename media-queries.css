@@ -113,6 +113,7 @@
   }
   .signup-form {
     width: 90%;
+    margin-bottom: 5rem;
   }
   .form__signup--input-small {
     width: 44vw;

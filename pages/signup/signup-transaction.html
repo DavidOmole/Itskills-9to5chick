@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="signup.css" />
+  <link rel="stylesheet" href="../../assets/base.css" />
+  <link rel="stylesheet" href="/media-queries.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="signup">
+      <header class="signup-header">
+        <div class="signup-header__links">
+          <p class="signup-header__text">Slready a Member?</p>
+          <button class="btn__header">Sign In</button>
+        </div>
+      </header>
+
+      <div class="signup__illustration">
+        <img src="/assets/img/bg-pink2.png" alt="" />
+        <img src="/assets/img/ladies.png" alt="" />
+      </div>
+      <div class="signup-form">
+        <h1 class="signup__title">Transaction Summary</h1>
+        <a href="/" class="view-plans">View Plans</a>
+        <br />
+        <br />
+
+        <form action="POST" class="form__signup">
+          <div class="form-group__outer">
+            <div class="form-group">
+              <label for="first-name">Plan</label>
+              <select name="payment-plan" id="payment-plan">
+                <option value="achiever">Achiever Chick</option>
+                <option value="star">Star Chick</option>
+              </select>
+            </div>
+          </div>
+          <div class="plan-duration">
+            <div class="duration-group">
+              <input type="checkbox" value="monthly" required />
+              <label for="Phone">Monthly</label>
+            </div>
+            <div class="duration-group">
+              <input type="checkbox" value="biannually" required />
+              <label for="biannually">Bi-anually</label>
+            </div>
+            <div class="duration-group">
+              <input type="checkbox" value="anually" required />
+              <label for="anually">Anually</label>
+            </div>
+          </div>
+          <br />
+          <br />
+
+          <span class="notice">
+            Note: By clicking "Pay Now",<a href="/" class="red-alert"
+              >this subscription renews until you cancel</a
+            ></span
+          >
+
+          <button class="btn btn-purple pay-now">Sign in</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -176,3 +176,30 @@ section {
   width: calc(100% + 2rem);
   margin-left: -2rem;
 }
+
+/* ACCORDION */
+
+.accordion {
+  margin-top: 5rem;
+}
+
+.accordion > .card {
+  margin-bottom: 1.2rem;
+}
+.full-width {
+  width: 100%;
+  height: 100%;
+  margin-right: auto;
+  text-align: left !important;
+  font-size: 1.6rem !important;
+  text-decoration: none !important;
+  color: #b11279 !important;
+  font-weight: 700 !important;
+}
+
+.card-body {
+  font-size: 1.4rem;
+}
+.card__text-purple {
+  color: #b11279;
+}

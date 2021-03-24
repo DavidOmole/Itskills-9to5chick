@@ -4,14 +4,23 @@
   <link rel="stylesheet" href="../../assets/base.css" />
   <link rel="stylesheet" href="/media-queries.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
     rel="stylesheet"
   />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
+
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap"
     rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
   />
 
   <head>
@@ -241,6 +250,144 @@
 
     <section class="section__faqs">
       <h2 class="title">FAQs</h2>
+
+      <!-- BOOTSTRAP ACCORDION -->
+      <div id="accordion" class="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link full-width"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Q: How do I subscribe for a Plan ?
+              </button>
+            </h5>
+          </div>
+
+          <div
+            id="collapseOne"
+            class="collapse show"
+            aria-labelledby="headingOne"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              A STEP by STEP GUIDE on how to SUBSCRIBE to 9to5Chicks <br />
+              <br />
+              <p class="card__text-purple">NEW USERS</p>
+              Visit the login page and click on the
+              <strong>Get Started</strong> button. <br />
+              <br />Once on the <strong>Get Started</strong> page, scroll to the
+              bottom of the page and you will see three payment plans.
+              (Achiever, Star Chick and Titan Chick).<br />
+              <br />
+              On any plan that feels good to you, click on the button that says
+              <strong>Activate Plan</strong> . You will immediately be taken to
+              a page that asks you to input your
+              <strong>name, email and password</strong> . Once you are done,
+              click on the Next button. At this point, you will be taken to a
+              new screen where you have to decide whether you want to pay
+              monthly or every six months (bianually) or every year (annually).
+              <br />
+              <br />Once you mark the checkbox for the option of your choice,
+              click on the Pay Now button that appears.<br />
+              <br />
+              Now, a Paystack checkout page will popup on the screen. Please
+              enter your card details and make your payment.<br />
+              <br />
+              Once the payment has been verified by Paystack, you can continue
+              with the rest of the onboarding process.
+              <br />
+              <p class="card__text-purple">Existing Users</p>
+              Once your subscription expires, if Paystack does not charge and
+              thus, resubscribe you to the platform, you will have to manually
+              resubscribe on the app. This step by step guide is for users who
+              fall into the latter category. <br />
+              <br />When you login, you will be taken to a page that urges you
+              to Reactivate your Account.
+              <br />
+              <br />
+              Once you click on that button, you will be redirected to a page,
+              where you can select the plan you want to pay for (Achiever or
+              Star).
+              <br />
+              <br />
+              For any plan that you feel is immediately best for you, click on
+              <strong>Activate Plan</strong> . <br />
+              <br />
+              A modal will then popup, asking you to decide between paying
+              monthly or biannually or yearly.<br />
+              <br />
+              Once you have selected your preferred option, click on the
+              <strong>Pay Now</strong>
+              button.<br />
+              <br />
+              At this point, a Paystack checkout page will appear on the
+              screen.<br />
+              <br />
+              Please fill in your card details to make payment. <br />
+              <br />
+              Once the payment is verified as successful, you will be allowed to
+              continue using the app.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link full-width collapsed"
+                data-toggle="collapse"
+                data-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Q: How do I upgrade my Plan?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapseTwo"
+            class="collapse"
+            aria-labelledby="headingTwo"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              Click on your profile in the left side-bar menu, Then click on
+              Subscription and upgrade your existing plan
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link full-width collapsed"
+                data-toggle="collapse"
+                data-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Q: How can I become a Titan Chick?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapseThree"
+            class="collapse"
+            aria-labelledby="headingThree"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              You must have created at least one goal on the platform and you
+              must have completed all of the onboarding steps.
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
