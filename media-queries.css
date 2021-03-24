@@ -36,20 +36,13 @@
   }
 }
 
-/* 670 */
-@media only screen and (max-width: 41.875em) {
-  .plans__group {
-    width: 100%;
-    flex-direction: column;
-    padding: unset;
-    margin-top: 4rem;
+/* 1000px */
+@media only screen and (max-width: 62.5em) {
+  .onboarding-input {
+    width: 28vw;
   }
-
-  .plan__long {
-    width: 100%;
-  }
-  .plan__long:first-child {
-    margin-bottom: 3rem;
+  h1.signup__title {
+    font-size: 2.6vw !important;
   }
 }
 /* 768px */
@@ -66,6 +59,9 @@
     margin: 2vw auto 0 auto;
     width: 80%;
   }
+  h1.signup__title {
+    font-size: 2.6rem !important;
+  }
   .signup-form {
     margin: 2vw auto 0 auto;
     width: 80%;
@@ -79,6 +75,9 @@
   }
   .form__signup--input-small {
     width: 39vw;
+  }
+  h1.signup__title {
+    font-size: 5vw !important;
   }
 
   .btn-purple {
@@ -105,8 +104,39 @@
   .plans__long {
     width: fit-content;
   }
-}
 
+  .pay-now {
+    width: inherit !important;
+  }
+
+  /* ONBOARDING PAGES */
+  .onboarding__illustrations {
+    display: none;
+  }
+  .onboarding__content {
+    width: 80vw;
+  }
+  .onboarding__title {
+    font-size: 3rem !important;
+  }
+}
+/* 670 */
+@media only screen and (max-width: 41.875em) {
+  .plans__group {
+    width: 100%;
+    flex-direction: column;
+    padding: unset;
+    margin-top: 4rem;
+  }
+
+  .plan__long {
+    width: 100%;
+  }
+  .plan__long:first-child {
+    margin-bottom: 3rem;
+  }
+}
+/* 480 */
 @media only screen and (max-width: 30em) {
   .sign-in {
     width: 90%;
@@ -128,7 +158,7 @@
     left: 2rem;
   }
   .hero__title {
-    font-size: 3rem;
+    font-size: 3rem !important;
     line-height: 110%;
   }
   .hero__sub {
@@ -148,5 +178,13 @@
 
   .plan__long {
     width: 100%;
+  }
+  .section__faqs {
+    padding: 0 4rem;
+  }
+  /* ONBOARDING PAGES */
+
+  .onboarding__content {
+    width: 92vw;
   }
 }

@@ -177,10 +177,16 @@ section {
   margin-left: -2rem;
 }
 
-/* ACCORDION */
-
+/* SECTION FAQs */
+.section__faqs {
+  padding: 0 8rem;
+}
 .accordion {
   margin-top: 5rem;
+}
+
+.accordion * {
+  font-size: 1.8rem !important;
 }
 
 .accordion > .card {
@@ -191,7 +197,6 @@ section {
   height: 100%;
   margin-right: auto;
   text-align: left !important;
-  font-size: 1.6rem !important;
   text-decoration: none !important;
   color: #b11279 !important;
   font-weight: 700 !important;
@@ -199,6 +204,7 @@ section {
 
 .card-body {
   font-size: 1.4rem;
+  padding: 2.5vw !important;
 }
 .card__text-purple {
   color: #b11279;

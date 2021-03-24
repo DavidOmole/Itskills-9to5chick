@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="onboarding.css" />
+    <link rel="stylesheet" href="/assets/base.css" />
+    <link rel="stylesheet" href="/media-queries.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="onboarding">
+      <div class="onboarding__illustrations">
+        <img src="/assets/img/bg-pink2.png" class="onboarding__ill-1" alt="" />
+        <img src="/assets/img/lady-left.png" class="onboarding__ill-2" alt="" />
+        <img
+          src="/assets/img/lady-right.png"
+          class="onboarding__ill-3"
+          alt=""
+        />
+      </div>
+      <div class="onboarding__content">
+        <div class="onboarding__progress">
+          <div class="progress__step progress__active">1</div>
+          <div class="progress__step">2</div>
+        </div>
+        <h1 class="onboarding__title">Welcome to 9to5Chick</h1>
+        <p class="onboarding__sub">Now, let's get to know you better.</p>
+
+        <form action="POST" class="onboarding__form">
+          <div class="form-group__outer">
+            <div class="form-group">
+              <label for="first-name">Country</label>
+              <select
+                class="form__signup--input-small onboarding-input"
+                type=""
+                required
+              >
+                <option value="nigeria">Nigeria</option>
+                <option value="ghana">Ghana</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="last-name">City</label>
+              <select
+                class="form__signup--input-small onboarding-input"
+                type=""
+                required
+              >
+                <option value="ikeja">Ikeja</option>
+                <option value="lekki">Lekki</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group__outer">
+            <div class="form-group">
+              <label for="first-name">Date Of Birth</label>
+              <input
+                class="form__signup--input-small onboarding-input input-date"
+                type="date"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="last-name">Job Title</label>
+              <input
+                class="form__signup--input-small onboarding-input"
+                type="password"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="last-name">Job Sector</label>
+            <select
+              class="form__signup--input-small onboarding-input"
+              type=""
+              required
+            >
+              <option value="finance">Finance</option>
+              <option value="technology">Technology</option>
+            </select>
+          </div>
+          <p class="form__label">Select Your Hobbies</p>
+
+          <div class="form__checkbox-container">
+            <div class="form__checkbox-groups">
+              <div class="form__checkbox-group">
+                <input type="checkbox" value="reading" required />
+                <label class="checkbox__label" for="">Reading</label>
+              </div>
+              <div class="form__checkbox-group">
+                <input type="checkbox" value="monthly" required />
+                <label class="checkbox__label" for="">Food and Drink</label>
+              </div>
+              <div class="form__checkbox-group">
+                <input type="checkbox" value="monthly" required />
+                <label class="checkbox__label" for="">Dancing</label>
+              </div>
+              <div class="form__checkbox-group">
+                <input type="checkbox" value="monthly" required />
+                <label class="checkbox__label" for="">Cooking</label>
+              </div>
+              <div class="form__checkbox-group">
+                <input type="checkbox" value="monthly" required />
+                <label class="checkbox__label" for="">Travel</label>
+              </div>
+              <div class="form__checkbox-group">
+                <input type="checkbox" value="monthly" required />
+                <label class="checkbox__label" for="">Sport</label>
+              </div>
+            </div>
+            <div class="form__checkbox-groups">
+              <div class="form__checkbox-group">
+                <input type="checkbox" value="reading" required />
+                <label class="checkbox__label" for="">Fashion and Beauty</label>
+              </div>
+              <div class="form__checkbox-group">
+                <input type="checkbox" value="monthly" required />
+                <label class="checkbox__label" for="">Health and Fitness</label>
+              </div>
+              <div class="form__checkbox-group">
+                <input type="checkbox" value="monthly" required />
+                <label class="checkbox__label" for="">Cleaning</label>
+              </div>
+              <div class="form__checkbox-group">
+                <input type="checkbox" value="monthly" required />
+                <label class="checkbox__label" for="">Photography</label>
+              </div>
+              <div class="form__checkbox-group">
+                <input type="checkbox" value="monthly" required />
+                <label class="checkbox__label" for="">Movies</label>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

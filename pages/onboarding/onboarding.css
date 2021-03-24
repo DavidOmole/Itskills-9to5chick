@@ -1,0 +1,126 @@
+.onboarding {
+  width: 100vw;
+  padding: 6rem 0;
+  position: relative;
+}
+
+.onboarding__ill-1,
+.onboarding__ill-2,
+.onboarding__ill-3 {
+  position: absolute;
+}
+.onboarding__ill-1 {
+  width: 114%;
+  left: -14%;
+  top: -10%;
+  z-index: 1;
+}
+.onboarding__ill-2,
+.onboarding__ill-3 {
+  z-index: 2;
+  width: 20%;
+}
+.onboarding__ill-2 {
+  left: 3%;
+  bottom: -20%;
+}
+.onboarding__ill-3 {
+  right: 3%;
+  bottom: -50%;
+}
+.onboarding__content {
+  width: 55vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 6;
+}
+.onboarding__progress {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.progress__step {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #777777;
+  color: white;
+  font-size: 1.4rem;
+}
+.progress__step.progress__active {
+  background-color: #b11279;
+}
+.progress__step:first-of-type {
+  margin-right: 3rem;
+}
+
+.onboarding__title,
+.onboarding__sub {
+  color: black;
+  text-align: center;
+}
+
+.onboarding__sub {
+  margin-bottom: 1rem;
+}
+/* ONBOARDING FORM */
+.onboarding__form {
+  width: fit-content;
+  margin: 3vw auto 0 auto;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+.form-group__outer {
+  display: flex;
+}
+.form__signup--input-small {
+  padding: 1.5rem;
+  width: 20vw;
+  border-radius: 4px;
+  border: 1px solid #c7cad1;
+  background-color: #eaf0ff;
+}
+
+.form-group__outer :first-child {
+  margin-right: 2vw;
+}
+
+.form__checkbox-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.form__checkbox-groups:last-of-type {
+  margin-left: 6vw;
+}
+
+.form__label {
+  margin-bottom: 1.2rem;
+  margin-top: 2rem;
+  color: black;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.checkbox__label {
+  font-weight: normal;
+}
+
+.form__checkbox-groups > .form__checkbox-group:not(:last-child) {
+  margin-bottom: 1.2rem;
+}
+
+.input-date {
+  padding: 1.3rem;
+}
+
+/* ONBOARDING PAGE_TWO */
