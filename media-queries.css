@@ -44,6 +44,12 @@
   h1.signup__title {
     font-size: 2.6vw !important;
   }
+  .form__checkbox-container {
+    width: fit-content;
+  }
+  .form__checkbox-groups {
+    width: 28vw;
+  }
 }
 /* 768px */
 
@@ -114,10 +120,17 @@
     display: none;
   }
   .onboarding__content {
-    width: 80vw;
+    width: 100%;
+  }
+  .onboarding-two__content {
+    width: 100vw;
   }
   .onboarding__title {
     font-size: 3rem !important;
+  }
+
+  .form__checkbox-groups {
+    width: 39vw;
   }
 }
 /* 670 */
@@ -186,5 +199,13 @@
 
   .onboarding__content {
     width: 92vw;
+  }
+
+  .onboarding__form {
+    width: 90%;
+  }
+
+  .form__checkbox-groups {
+    width: 44vw;
   }
 }

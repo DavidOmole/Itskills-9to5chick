@@ -12,13 +12,13 @@ body {
 }
 html {
   font-size: 62.5%;
-  font-family: "Montserrat", sans-serif;
   background-color: #edf2f6;
 }
 
 body {
   box-sizing: border-box;
   overflow-y: hidden;
+  font-family: "Montserrat", sans-serif;
 }
 
 ul {
