@@ -122,8 +122,9 @@
   .onboarding__content {
     width: 100%;
   }
+
   .onboarding-two__content {
-    width: 100vw;
+    width: min-content;
   }
   .onboarding__title {
     font-size: 3rem !important;
@@ -157,6 +158,9 @@
   .signup-form {
     width: 90%;
     margin-bottom: 5rem;
+  }
+  .signup-header {
+    padding: 2rem 1rem;
   }
   .form__signup--input-small {
     width: 44vw;
@@ -197,8 +201,9 @@
   }
   /* ONBOARDING PAGES */
 
-  .onboarding__content {
-    width: 92vw;
+  .onboarding__content,
+  .onboarding-two__content {
+    width: 100vw;
   }
 
   .onboarding__form {
@@ -207,5 +212,8 @@
 
   .form__checkbox-groups {
     width: 44vw;
+  }
+  .form__signup--input {
+    width: calc(100% + 1.4rem);
   }
 }

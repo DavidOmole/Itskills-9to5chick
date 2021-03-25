@@ -10,6 +10,10 @@
   position: relative;
   z-index: 8;
 }
+.onboarding-two__content {
+  width: min-content;
+  margin: 0 auto;
+}
 .onboarding__ill-1,
 .onboarding__ill-2,
 .onboarding__ill-3,
@@ -18,6 +22,7 @@
 .onboarding-two__ill-3 {
   position: absolute;
 }
+
 .onboarding__ill-1,
 .onboarding-two__ill-1 {
   width: 114%;
